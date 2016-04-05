@@ -19,3 +19,12 @@ return waitfor('api.github.com', 443)
   .then(() => console.log('Now it's safe to start application'))
   .catch(err => console.log('Something fishy is going on...', err));
 ```
+
+# Development
+
+Tests are best run in docker:
+
+```
+docker-compose build
+docker-compose run waitfor-connection npm test
+```
