@@ -16,8 +16,8 @@ npm install waitfor-connection
 var waitfor = require('waitfor-connection');
 
 return waitfor('api.github.com', 443)
-  .then(() => console.log('Now it's safe to start application'))
-  .catch(err => console.log('Something fishy is going on...', err));
+  .then(() => spinUpApplication())
+  .catch(err => console.error(err));
 ```
 
 # Development

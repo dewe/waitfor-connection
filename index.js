@@ -1,7 +1,7 @@
 'use strict';
 
 var promiseRetry = require('promise-retry');
-var test = require('./test-connection');
+var conn = require('./connectionable');
 var debug = require('debug')('waitfor-connection');
 
 var defaults = {
@@ -16,7 +16,7 @@ module.exports = function (host, port, options) {
   return promiseRetry(options, function (retry, number) {
     debug(`${host}:${port} attempt ${number}`);
 
-    return test(host, port, 1000)
+    return conn(host, port, 1000)
       .then(() => debug(`${host}:${port} is available`))
       .catch(retry);
   });
