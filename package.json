@@ -1,0 +1,24 @@
+{
+  "name": "waitfor-connection",
+  "version": "0.0.1",
+  "description": "Promised waiting for host and TCP port to become available.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dewe/waitfor-connection.git"
+  },
+  "keywords": [
+    "tcp",
+    "nodejs",
+    "connection"
+  ],
+  "author": "Johan Dewe <johan@dewe.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dewe/waitfor-connection/issues"
+  },
+  "homepage": "https://github.com/dewe/waitfor-connection#readme"
+}
