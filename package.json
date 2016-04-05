@@ -20,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/dewe/waitfor-connection/issues"
   },
-  "homepage": "https://github.com/dewe/waitfor-connection#readme"
+  "homepage": "https://github.com/dewe/waitfor-connection#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-release": "^0.13.0",
+    "mocha": "^2.4.5",
+    "nock": "^7.7.3"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "promise-retry": "^1.1.0"
+  }
 }
