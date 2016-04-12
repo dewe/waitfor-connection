@@ -1,6 +1,6 @@
 {
   "name": "waitfor-connection",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Promised waiting for host and TCP port to become available.",
   "main": "index.js",
   "scripts": {
