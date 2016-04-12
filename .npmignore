@@ -1,2 +1,5 @@
 test
 .eslintrc
+Gruntfile.js
+.travis.yml
+circle.yml
