@@ -23,7 +23,7 @@
   "homepage": "https://github.com/dewe/waitfor-connection#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^11.7.5"
   },
   "dependencies": {
     "debug": "^2.2.0",
