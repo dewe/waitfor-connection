@@ -28,6 +28,6 @@
   "dependencies": {
     "debug": "^2.2.0",
     "promise-retry": "^1.1.0",
-    "tcp-connect": "0.0.3"
+    "tcp-connect": "^0.0.4"
   }
 }
