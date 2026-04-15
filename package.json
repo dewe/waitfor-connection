@@ -4,7 +4,8 @@
   "description": "Promised waiting for host and TCP port to become available.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "release": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
